@@ -19,7 +19,7 @@ st.title("Salary prediction model")
 
 age =st.number_input("Enter your age", 18,65)
 gender = st.selectbox("select your gender",encoder["Gender"].classes_)
-education = st.selectboc("select your education",encoder["Education Level"].classes_)
+education = st.selectbox("select your education",encoder["Education Level"].classes_)
 job_title = st.selectbox("select your job title",encoder["Job Title"].classes_)
 experience= st.number_input("enter your experience (in years)",0,50)
 
