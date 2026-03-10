@@ -25,11 +25,11 @@ experience= st.number_input("enter your experience (in years)",0,50)
 
 
 df = pd.DataFrame({
-    "Enter your age":[age],
-    "select your gender":[gender],
-    "select your education":[education],
-    "select your job title":[job_title],
-    "enter your experience (in years)":[experience]
+    "age":[age],
+    "gender":[gender],
+    "education":[education],
+    "job_title":[job_title],
+    "experience":[experience]
 })
 
 
